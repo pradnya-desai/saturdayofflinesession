@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Table with rowspan and colspan</title>
+        <style>
+
+           table, td,tr{
+                border: solid 1px black;
+                border-collapse: collapse;
+                background-color: orange;
+            }
+
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="center" cellpadding="50">
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="4" width="30"></td>
+                <td rowspan="2" colspan="2" width="20"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+        </table>
+    </body>
+</html>
